@@ -1,0 +1,25 @@
+version: "3"
+services:
+  nginx:
+    restart: always
+    image: nginx
+    container_name: nginx_exam_online
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./nginx/conf/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/html:/usr/share/nginx/wwwroot
+  webapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    environment:
+      IP: "121.196.145.132"
+      PORT: "3306"
+      DRIVERCLASSNAME: "com.mysql.cj.jdbc.Driver"
+      DBNAME: "activities"
+      URL: "jdbc:mysql://121.196.145.132:3306/examonline?characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false"
+      USERNAME: "root"
+      PASSWORD: "123456"

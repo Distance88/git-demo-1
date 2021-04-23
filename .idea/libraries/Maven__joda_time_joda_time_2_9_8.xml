@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: joda-time:joda-time:2.9.8">
+    <CLASSES>
+      <root url="jar://D:/Chrome下载/apache-maven-3.5.4/MavenRepository/joda-time/joda-time/2.9.8/joda-time-2.9.8.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Chrome下载/apache-maven-3.5.4/MavenRepository/joda-time/joda-time/2.9.8/joda-time-2.9.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Chrome下载/apache-maven-3.5.4/MavenRepository/joda-time/joda-time/2.9.8/joda-time-2.9.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/activities-vue/activities-vue.iml" filepath="$PROJECT_DIR$/activities-vue/activities-vue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-vue/blog-vue.iml" filepath="$PROJECT_DIR$/blog-vue/blog-vue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springBoot-vue.iml" filepath="$PROJECT_DIR$/.idea/springBoot-vue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-exam-online/springboot-exam-online.iml" filepath="$PROJECT_DIR$/springboot-exam-online/springboot-exam-online.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-test-work/springboot-test-work.iml" filepath="$PROJECT_DIR$/springboot-test-work/springboot-test-work.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-vue-permission/springboot-vue-permission.iml" filepath="$PROJECT_DIR$/springboot-vue-permission/springboot-vue-permission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-vue-ry/springboot-vue-ry.iml" filepath="$PROJECT_DIR$/springboot-vue-ry/springboot-vue-ry.iml" />
+    </modules>
+  </component>
+</project>

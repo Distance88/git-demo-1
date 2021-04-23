@@ -1,0 +1,16 @@
+version: "3"
+services:
+  webapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    environment:
+      IP: "121.196.145.132"
+      PORT: "3306"
+      DRIVERCLASSNAME: "com.mysql.cj.jdbc.Driver"
+      DBNAME: "work"
+      URL: "jdbc:mysql://121.196.145.132:3306/work?characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false"
+      USERNAME: "root"
+      PASSWORD: "123456"

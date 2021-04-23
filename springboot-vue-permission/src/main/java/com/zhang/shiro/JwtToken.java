@@ -1,0 +1,27 @@
+package com.zhang.shiro;
+
+import org.apache.shiro.authc.AuthenticationToken;
+
+/**
+ * Created with IntelliJ IDEA.
+ * Author: Distance
+ * Date: 2021/03/02/9:07
+ */
+public class JwtToken implements AuthenticationToken {
+
+    private String token;
+
+    public JwtToken(String token) {
+        this.token = token;
+    }
+
+    @Override
+    public Object getPrincipal() {
+        return token;
+    }
+
+    @Override
+    public Object getCredentials() {
+        return token;
+    }
+}

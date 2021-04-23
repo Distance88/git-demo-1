@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace= "com.zhang.mapper.ExamMapper" >
+
+<insert id="insertExam" >
+    insert into exam values (default,#{exam.starttime},#{exam.endtime},#{exam.examtype},#{exam.xzt1},#{exam.xzt2},#{exam.xzt3},#{exam.xzt4},#{exam.xzt5},#{exam.tkt1},#{exam.tkt2},#{exam.tkt3},#{exam.tkt4},#{exam.tkt5})
+</insert>
+
+
+
+<select id="selChoiseByType" resultType="Choise">
+    select * from choise where type = #{type}
+    and id in
+    <foreach collection="ids" item="ids" index="id" open="(" separator="," close=")">
+        #{ids}
+    </foreach>
+</select>
+
+
+<select id="selBlankByType" resultType="Blank">
+    select * from blank where type = #{type} and id in
+    <foreach collection="ids" item="ids" index="id" open="(" separator="," close=")">
+        #{ids}
+    </foreach>
+
+</select>
+
+</mapper>

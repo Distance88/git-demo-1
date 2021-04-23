@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.httpcomponents:httpcore:4.4.13">
+    <CLASSES>
+      <root url="jar://D:/Chrome下载/apache-maven-3.5.4/MavenRepository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Chrome下载/apache-maven-3.5.4/MavenRepository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Chrome下载/apache-maven-3.5.4/MavenRepository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

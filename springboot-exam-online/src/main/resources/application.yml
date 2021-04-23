@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/examonline?characterEncoding=UTF-8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+      exclude: WEB-INF/**
+  mvc:
+    static-path-pattern: /static/**
+    resources:
+      static-locations: classpath:/META-INF/resources/,classpath:/resources/, classpath:/static/,classpath:/pub/,file:/uploads
+    thymeleaf:
+      cache: false
+server:
+  port: 8081
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  typeAliasesPackage: com.zhang.pojo
+  mapperLocations: classpath:mapper/*.xml

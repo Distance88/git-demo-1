@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.springfox:springfox-core:2.9.2">
+    <CLASSES>
+      <root url="jar://D:/Chrome下载/apache-maven-3.5.4/MavenRepository/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Chrome下载/apache-maven-3.5.4/MavenRepository/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Chrome下载/apache-maven-3.5.4/MavenRepository/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
